@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS "clinics" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"long_name" varchar NOT NULL,
+	"pms" varchar NOT NULL,
+	"meta_title" varchar NOT NULL,
+	"meta_description" varchar NOT NULL,
+	"slug" varchar NOT NULL,
+	"website" varchar NOT NULL,
+	"clinic_name" varchar NOT NULL,
+	"display_on_web" varchar NOT NULL,
+	"link" varchar NOT NULL,
+	"full_address" varchar NOT NULL,
+	"city" varchar NOT NULL,
+	"suburb" varchar NOT NULL,
+	"state" varchar NOT NULL,
+	"postcode" varchar NOT NULL,
+	"email" varchar,
+	"phone" varchar NOT NULL,
+	"lat" numeric NOT NULL,
+	"lng" numeric NOT NULL
+);

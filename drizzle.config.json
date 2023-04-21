@@ -1,0 +1,5 @@
+{
+  "out": "./drizzle-orm/migrations",
+  "schema": "./src/db/schema",
+  "breakpoints": false
+}
